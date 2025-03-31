@@ -29,7 +29,11 @@ body {
 /*
  * Header
  */
-
+.Integrantes {
+    margin: 80px; /* Espaciado uniforme alrededor del bloque */
+    padding: 20px; /* Espaciado interno opcional para separar el contenido del borde */
+    border: 0px solid #ccc; /* Opcional: para delimitar visualmente cada bloque */
+}
 .nav-link {
     margin-right: 20px; /* Espacio entre cada título */
 }
