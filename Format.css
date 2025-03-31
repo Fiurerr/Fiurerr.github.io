@@ -29,6 +29,9 @@ body {
 /*
  * Header
  */
+.nav-link {
+    margin-right: 15px; /* Ajusta el espacio entre botones según tus necesidades */
+}
 
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
