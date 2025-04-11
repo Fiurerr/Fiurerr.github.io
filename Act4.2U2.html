@@ -85,14 +85,12 @@
             background-color: #fff;
             border: 1px solid #ddd;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-            order: 2; /* Mueve la imagen al final (derecha) */
-            margin-left: 0; /* Elimina el margen izquierdo */
-            margin-right: 20px; /* Añade margen a la derecha */
+            margin-left: 0;
+            margin-right: 20px;
         }
 
         .character-container div {
             flex-grow: 1;
-            order: 1; /* Asegura que la información esté antes de la imagen */
         }
     </style>
 </head>
@@ -122,73 +120,61 @@
                     details = `
                         <h2>Ezio</h2>
                         <table>
-                            <tr><th>Name</th><td>Ezio Auditore</td></tr>
-                            <tr><th>Occupation</th><td>Asesino</td></tr>
-                            <tr><th>Abilities</th><td>Parkour,seduccion, sigilo,ojo de aguila</td></tr>
-                            <tr><th>First Appearance</th><td>Assasins creed II</td></tr>
-                            <tr><th>Characteristics</th><td>Red cap, Blue overalls, Moustache, Cheerful</td></tr>
+                            <tr><th>Nombre</th><td>Ezio Auditore</td></tr>
+                            <tr><th>Ocupación</th><td>Asesino</td></tr>
+                            <tr><th>Habilidades</th><td>Parkour, seducción, sigilo, ojo de águila</td></tr>
+                            <tr><th>Primera Aparición</th><td>Assassin's Creed II</td></tr>
                         </table>
                     `;
-                    imageUrl = '<https://www.google.com/imgres?q=imagen%20ezio%20auditore%20png&imgurl=https%3A%2F%2Fc0.klipartz.com%2Fpngpicture%2F810%2F26%2Fgratis-png-credo-del-asesino-ezio-auditore-asesino-credo-centro-cara-thumbnail.png&imgrefurl=https%3A%2F%2Fwww.klipartz.com%2Fes%2Fsearch%3Fq%3DEzio%2BAuditore&docid=thQIvtJ_yA6l2M&tbnid=5qKLHdFEIo6fdM&vet=12ahUKEwimtJT8mNCMAxWVJkQIHcXmKskQM3oECBkQAA..i&w=370&h=444&hcb=2&ved=2ahUKEwimtJT8mNCMAxWVJkQIHcXmKskQM3oECBkQAA>';
+                    imageUrl = `<img src="ezio.jfif" alt="Ezio">`;
                     break;
                 case 'Altair':
                     details = `
-                        
+                        <h2>Altaïr</h2>
                         <table>
-                            <h2>Altaïr Ibn-La'Ahad</h2>
-<table>
-    <tr><th>Name</th><td>Altaïr Ibn-La'Ahad</td></tr>
-    <tr><th>Occupation</th><td>Asesino</td></tr>
-    <tr><th>Abilities</th><td>Sigilo, combate cuerpo a cuerpo, ojo de águila</td></tr>
-    <tr><th>First Appearance</th><td>Assassin's Creed</td></tr>
-    <tr><th>Characteristics</th><td>Frío, calculador, disciplinado</td></tr>
-</table>
+                            <tr><th>Nombre</th><td>Altaïr Ibn-La'Ahad</td></tr>
+                            <tr><th>Ocupación</th><td>Asesino</td></tr>
+                            <tr><th>Habilidades</th><td>Sigilo, combate cuerpo a cuerpo, ojo de águila</td></tr>
+                            <tr><th>Primera Aparición</th><td>Assassin's Creed</td></tr>
+                        </table>
                     `;
-                    imageUrl = '<https://www.google.com/imgres?q=imagen%20altair%20png&imgurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F346%2F31%2Fpng-transparent-assassin-s-creed-altair-s-chronicles-assassin-s-creed-iii-assassin-s-creed-revelations-vali-assassin-s-creed-altair-s-chronicles-assassin-s-creed-iii-assassin-s-creed-thumbnail.png&imgrefurl=https%3A%2F%2Fwww.pngwing.com%2Fes%2Fsearch%3Fq%3Daltair&docid=rCjpTSEFxwuiaM&tbnid=trlmJzc658wBaM&vet=12ahUKEwjuk5v2mdCMAxUJE0QIHS-JLU8QM3oECBUQAA..i&w=360&h=750&hcb=2&ved=2ahUKEwjuk5v2mdCMAxUJE0QIHS-JLU8QM3oECBUQAA">';
+                    imageUrl = `<img src="altair.jfif" alt="Altaïr">`;
                     break;
                 case 'Connor':
                     details = `
-                        
+                        <h2>Connor</h2>
                         <table>
-                            <h2>Connor Kenway</h2>
-<table>
-    <tr><th>Name</th><td>Ratonhnhaké:ton (Connor Kenway)</td></tr>
-    <tr><th>Occupation</th><td>Asesino</td></tr>
-    <tr><th>Abilities</th><td>Combate con tomahawk, sigilo, habilidades de caza</td></tr>
-    <tr><th>First Appearance</th><td>Assassin's Creed III</td></tr>
-    <tr><th>Characteristics</th><td>Determinado, protector, fuerte sentido de justicia</td></tr>
-</table>
+                            <tr><th>Nombre</th><td>Ratonhnhaké:ton (Connor Kenway)</td></tr>
+                            <tr><th>Ocupación</th><td>Asesino</td></tr>
+                            <tr><th>Habilidades</th><td>Combate con tomahawk, sigilo, habilidades de caza</td></tr>
+                            <tr><th>Primera Aparición</th><td>Assassin's Creed III</td></tr>
+                        </table>
                     `;
-                    imageUrl = '<img src="https://www.google.com/imgres?q=imagen%20connorkenwaypng&imgurl=https%3A%2F%2Fc0.klipartz.com%2Fpngpicture%2F1007%2F314%2Fgratis-png-credo-del-asesino-iii-credo-del-asesino-hermandad-ezio-auditore-connor-kenway-credo-asesinos.png&imgrefurl=https%3A%2F%2Fwww.klipartz.com%2Fes%2Fsticker-png-fpnry&docid=lDhbj7C-MeFP6M&tbnid=xg1bM9SsCphCCM&vet=12ahUKEwjMvMaPmtCMAxVBJEQIHVuWNjwQM3oFCIMBEAA..i&w=890&h=595&hcb=2&itg=1&ved=2ahUKEwjMvMaPmtCMAxVBJEQIHVuWNjwQM3oFCIMBEAA">';
+                    imageUrl = `<img src="connor.jfif" alt="Connor">`;
                     break;
                 case 'Edward':
                     details = `
-                        
+                        <h2>Edward</h2>
                         <table>
-                            <h2>Edward Kenway</h2>
-<table>
-    <tr><th>Name</th><td>Edward Kenway</td></tr>
-    <tr><th>Occupation</th><td>Pirata y asesino</td></tr>
-    <tr><th>Abilities</th><td>Combate naval, sigilo, manejo de armas</td></tr>
-    <tr><th>First Appearance</th><td>Assassin's Creed IV: Black Flag</td></tr>
-    <tr><th>Characteristics</th><td>Carismático, ambicioso, rebelde</td></tr>
-</table>
+                            <tr><th>Nombre</th><td>Edward Kenway</td></tr>
+                            <tr><th>Ocupación</th><td>Pirata y asesino</td></tr>
+                            <tr><th>Habilidades</th><td>Combate naval, sigilo, manejo de armas</td></tr>
+                            <tr><th>Primera Aparición</th><td>Assassin's Creed IV: Black Flag</td></tr>
+                        </table>
                     `;
-                    imageUrl = '<img src="https://www.google.com/imgres?q=imagen%20Edward%20kenwaypng&imgurl=https%3A%2F%2Fw7.pngwing.com%2Fpngs%2F108%2F657%2Fpng-transparent-assassin-s-creed-iv-black-flag-assassin-s-creed-pirates-edward-kenway-piracy-uplay-assassins-creed-miscellaneous-video-game-infantry.png&imgrefurl=https%3A%2F%2Fwww.pngwing.com%2Fes%2Fsearch%3Fq%3DKenway&docid=8Mo5deXyxvDrvM&tbnid=5BTLTGf9PKV1AM&vet=12ahUKEwj6w8POmtCMAxURke4BHQfNCW0QM3oECHsQAA..i&w=920&h=870&hcb=2&ved=2ahUKEwj6w8POmtCMAxURke4BHQfNCW0QM3oECHsQAA">';
+                    imageUrl = `<img src="edward.jfif" alt="Edward">`;
                     break;
                 case 'Arno':
                     details = `
-                        
-                       <h2>Arno Dorian</h2>
-<table>
-    <tr><th>Name</th><td>Arno Dorian</td></tr>
-    <tr><th>Occupation</th><td>Asesino</td></tr>
-    <tr><th>Abilities</th><td>Parkour, sigilo, combate con espada</td></tr>
-    <tr><th>First Appearance</th><td>Assassin's Creed Unity</td></tr>
-    <tr><th>Characteristics</th><td>Idealista, romántico, valiente</td></tr>
-</table>
+                        <h2>Arno</h2>
+                        <table>
+                            <tr><th>Nombre</th><td>Arno Dorian</td></tr>
+                            <tr><th>Ocupación</th><td>Asesino</td></tr>
+                            <tr><th>Habilidades</th><td>Parkour, sigilo, combate con espada</td></tr>
+                            <tr><th>Primera Aparición</th><td>Assassin's Creed Unity</td></tr>
+                        </table>
                     `;
-                    imageUrl = '<img src="https://www.google.com/imgres?q=imagen%20arno%20png&imgurl=https%3A%2F%2Fc3.klipartz.com%2Fpngpicture%2F748%2F890%2Fsticker-png-arno-victor-dorian-render-thumbnail.png&imgrefurl=https%3A%2F%2Fwww.klipartz.com%2Fes%2Fsearch%3Fq%3Darno&docid=aK-6e9Mz6l7quM&tbnid=hv2J-ifNA18qlM&vet=12ahUKEwjEs5znmtCMAxWVl-4BHetaIGoQM3oECFMQAA..i&w=370&h=524&hcb=2&itg=1&ved=2ahUKEwjEs5znmtCMAxWVl-4BHetaIGoQM3oECFMQAA">';
+                    imageUrl = `<img src="arno.jfif" alt="Arno">`;
                     break;
             }
 
@@ -197,8 +183,5 @@
     </script>
 
 </body>
-
-</html>
-
 
 </html>
